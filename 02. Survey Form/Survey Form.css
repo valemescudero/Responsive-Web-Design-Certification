@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+body {
+  background-color: rgb(29, 30, 34);
+  color: white;
+  font: 15px "Quicksand", Arial, sans-serif;
+  text-align: center;
+}
+#main {
+}
+
+.container {
+  font-size: 1.5em;
+  width: 100%;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-areas:
