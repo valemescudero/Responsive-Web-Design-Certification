@@ -3,9 +3,9 @@
 Curriculum:<br>
 Basic HTML and HTML5 | Basic CSS | Applied Visual Design<br>
 Applied Accessibility | Responsive Web Design Principles<br>
-CSS Flexbox | CSS Grid | Responsive Web Design Projects<br>
+CSS Flexbox | CSS Grid | Responsive Web Design Projects<br><br>
 
-In this repository:
+[Certification](https://www.freecodecamp.org/certification/valemescudero/responsive-web-design)
 ## Responsive Web Design Projects:
 ### · Build a [Tribute Page](https://codepen.io/valemescudero/pen/pobRgYa)
 ### · Build a [Survey Form](https://codepen.io/valemescudero/pen/BazpjEW)
