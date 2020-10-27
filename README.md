@@ -10,8 +10,8 @@
 ## Responsive Web Design Projects (5)
 
 ## Introduction to the Responsive Web Design Projects (5):
-· Build a Tribute Page
-· Build a Survey Form
-· Build a Product Landing Page
-· Build a Technical Documentation Page
-· Build a Personal Portfolio Webpage
+### · Build a Tribute Page
+### · Build a Survey Form
+### · Build a Product Landing Page
+### · Build a Technical Documentation Page
+### · Build a Personal Portfolio Webpage
