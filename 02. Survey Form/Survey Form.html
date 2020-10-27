@@ -25,3 +25,39 @@
       <option value="professional">Professional</option>
       <option value="preferNo">Not an artist</option>
       <option value="other">Other</option>
+              </select></label>
+
+              <div id="optionscontainer">
+                <div class="item3">
+                  <fieldset id="subscription">
+                    <legend>I want to receive:</legend>
+                    <ul style="list-style: none;">
+                      <li class="radio"><label>One time only<input name="radio-buttons" value="1"  type="radio" class="userRatings" ></label></li>
+                      <li class="radio"><label>Monthly<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+                      <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>
+                    </ul>
+                  </fieldset>
+                </div>
+
+                <div class="item4">
+                  <fieldset id="preferences">
+                    <legend>I'm looking for:</legend>
+                    <ul style="list-style: none;">
+                      <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Related publications</label></li>
+                      <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Upcoming events</li>
+                      <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Media</label></li>
+                    </ul>
+                  </fieldset>
+                </div>
+              </div>
+              <br> Additional comments<br>
+              <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea><br>
+              <button id="submit" type="submit">Submit</button>
+            </center>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
