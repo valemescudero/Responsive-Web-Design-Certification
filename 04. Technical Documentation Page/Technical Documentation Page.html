@@ -1,0 +1,643 @@
+
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://argob.github.io/poncho/node_modules/argob-poncho/dist/icono-arg.css" rel="stylesheet">
+<link href="https://argob.github.io/poncho/node_modules/argob-poncho/dist/icono-arg.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://argob.github.io/poncho/node_modules/argob-poncho/dist/css/poncho.min.css" rel="stylesheet">
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Build a Technical Documentation Page / Poncho</title>
+<link rel="shortcut icon" href="/poncho/favicon.ico">
+<meta name="theme-color" content="#0072b8">
+<meta name="msapplication-navbutton-color" content="#0072b8">
+<meta name="apple-mobile-web-app-status-bar-style" content="#0072b8">
+
+
+<div class="bg-light border-right" id="sidebar-wrapper">
+  <nav id="navbar">
+    
+          <a href="#Poncho" class="navbar-brand">
+            <img alt="Poncho" src="https://argob.github.io/poncho/img/poncho.gif" height="50">
+            <header id="Pheader" class="h1">Poncho</header>
+          </a>
+          <div class="collapse navbar-collapse" id="main-navbar-collapse" data-seccion="Componentes"><ul class="nav navbar-nav navbar-right ">
+	<li data-seccion="Poncho"><a class="nav-link" href="#Poncho">Poncho</a></li>
+	<li data-seccion="Identity"><a class="nav-link" href="#Identity">Identity</a></li>
+	<li data-seccion="Components" class="active"><a class="nav-link" href="#Components">Components</a></li>
+<li data-seccion="Templates"><a class="nav-link" href="#Templates">Templates</a></li>
+<li data-seccion="Installing"><a class="nav-link" href="#Installing">Installing</a></li>
+</ul></div>
+      </div>
+  </nav>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<nav id="navbars" class="navbar navbar-top navbar-default" role="navigation">
+    <div class="container">
+      <div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#Poncho" class="navbar-brand">
+            <img alt="Poncho" src="https://argob.github.io/poncho/img/poncho.gif" height="50">
+            <header id="Pheader" class="h1">Poncho</header>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-navbar-collapse" data-seccion="Componentes"><ul class="nav navbar-nav navbar-right ">
+	<li data-seccion="Poncho"><a href="#Poncho">Poncho</a></li>
+	<li data-seccion="Identity"><a href="#Identity">Identity</a></li>
+	<li data-seccion="Components" class="active"><a href="#Components">Components</a></li>
+<li data-seccion="Templates"><a href="#Templates">Templates</a></li>
+<li data-seccion="Installing"><a href="#Installing">Installing</a></li>
+</ul></div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<main id="main-doc">
+  <section class="main-section" style="margin-top: -2em;" id="Poncho">
+    <header style="display:none;">Poncho</header>
+    <div class="jumbotron bg-primary" style="background-image:url('https://www.argentina.gob.ar/sites/default/files/jumbotron-poncho.png');">
+      <div class="jumbotron_body">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+              <header>
+                <h1>Poncho</h1>
+              </header>
+              <p>The style and components library for the design of official websites and applications pertaining to the government of Argentina.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <article>
+      <div class="container m-t-2">
+        <div class="row text-center">
+          <div class="col-md-8 col-md-offset-2">
+            <h2 class="m-b-3">Why Use Poncho?</h2>
+          </div>
+          <div class="col-sm-4">
+            <i class="icono-arg-genero fa-4x text-primary"></i>
+            <h3>Unified experience</h3>
+            <p>Citizens will recognize the website as part of the official Government's sites.</p>
+          </div>
+          <div class="col-sm-4 ">
+            <i class="icono-arg-sitios-accesibles fa-4x text-primary"></i>
+            <h3>Accesible sites</h3>
+            <p>Components have been optimized to garantee accesibility.</p>
+          </div>
+          <div class="col-sm-4">
+            <i class="icono-arg-reloj fa-4x text-primary"></i>
+            <h3>Save time and work</h3>
+            <p>Copy and paste components and templates without having to code from scratch.</p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="main-section" id="Identity">
+    
+    <header style="display:none;">Identity</header>
+    <div class="container">
+      <div class="col-sm-12">
+        <div class="jumbotron_body p-t-2 p-b-2">
+          <header>
+            <h2 class="lateralmenu" style="h1">Identity</h2>
+          </header>
+        </div>
+      </div>
+    </div>
+    <article>
+      <div class="row">
+        <section>
+          <div class="col-sm-3">
+            <div class="page-sidebar">
+              <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a data-seccion="1" href="#icons">Icons</a></li>
+                <li><a data-seccion="2" href="#colors">Colors</a></li>
+                <li><a data-seccion="3" href="#typography">Tipography</a></li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-9">
+            <h2 id="Icons" class="h1">Icons</h2>
+            <p>Poncho has its own icon library. When no suitable icon can be found the alternative is <a href="https://fontawesome.com/">Font Awesome.</a></p>
+            <hr>
+            <div id="listaPoncho">
+              <div class="row row-flex list">
+                <div class="icono col-xs-6 col-sm-4 col-md-3 text-center margin-40"><i class="icono-arg-achatar-curva"></i>
+                  <div class="name">flatten-curve</div>
+                  <div class="tags hidden">inform, stadistic, covid-19, coronavirus</div>
+                </div>
+                <div class="icono col-xs-6 col-sm-4 col-md-3 text-center margin-40"><i class="icono-arg-agua"></i>
+                  <div class="name">water</div>
+                  <div class="tags hidden">drop, climate, rain, enviroment</div>
+                </div>
+                <div class="icono col-xs-6 col-sm-4 col-md-3 text-center margin-40"><i class="icono-arg-alimentos-y-establecimientos-ok"></i>
+                  <div class="name">food-and-stablishments-ok</div>
+                  <div class="tags hidden">food, nutrition, milk, diet, grocery-store, supermarket</div>
+                </div>
+                <div class="icono col-xs-6 col-sm-4 col-md-3 text-center margin-40"><i class="icono-arg-ambiente-medicion-lineal"></i>
+                  <div class="name">enviroment-linear-trend</div>
+                  <div class="tags hidden"></div>
+                </div>
+                <div class="icono col-xs-6 col-sm-4 col-md-3 text-center margin-40"><i class="icono-arg-ambiente"></i>
+                  <div class="name">enviroment</div>
+                  <div class="tags hidden">hand, plant, care, protection</div>
+                </div>
+                <div class="icono col-xs-6 col-sm-4 col-md-3 text-center margin-40"><i class="icono-arg-anses"></i>
+                  <div class="name">anses</div>
+                  <div class="tags hidden"></div>
+                </div>
+                <div class="icono col-xs-6 col-sm-4 col-md-3 text-center margin-40"><i class="icono-arg-art-lineal"></i>
+                  <div class="name">art-linear</div>
+                  <div class="tags hidden"></div>
+                </div>
+                <div class="icono col-xs-6 col-sm-4 col-md-3 text-center margin-40"><i class="icono-arg-autentificacion"></i>
+                  <div class="name">autentification</div>
+                  <div class="tags hidden">key, owner, propietarian</div>
+                </div>
+                <div class="icono col-xs-6 col-sm-4 col-md-3 text-center margin-40"><i class="icono-arg-barrio"></i>
+                  <div class="name">neighborhood</div>
+                  <div class="tags hidden">house, city, urban, housing</div>
+                </div>
+              </div>
+            </div>
+<hr>
+            <h2 id="colors" class="h1">Colors</h2>
+
+            <p>The colors of Poncho are based on the
+              Presidency of the Nation's Manual of identity with minor brightness and contrast adjustments in order to make them more accessible.</p>
+
+            <hr>
+
+            <fieldset>
+
+              <h2>Actions and states</h2>
+
+              <p>Colors used for buttons, alerts, error messages, etc.</p>
+
+              <div class="row">
+
+                <div class="col-md-4 col-sm-6 col-xs-6 paleta">
+                  <div class="color bg-primary"></div>
+                  <label>Link or information</label>
+                  <p>Blue #0072bb<br>bg-primary<br>text-primary</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 paleta">
+                  <div class="color bg-success"></div>
+                  <label>Principal or successful action</label>
+                  <p>Green #2e7d33<br>bg-success<br>text-success</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 paleta">
+                  <div class="color bg-danger"></div>
+                  <label>Warning or danger</label>
+                  <p>Red #c62828<br>bg-danger<br>text-danger</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 paleta">
+                  <div class="color bg-warning"></div>
+                  <label>Focus or alert</label>
+                  <p>Yellow  #f9a822<br>bg-warning<br>text-warning</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 paleta">
+                  <div class="color bg-info"></div>
+                  <label>Information</label>
+                  <p>Light-blue #2897d4<br>bg-info<br>text-info</p>
+                </div>
+
+              </div>
+
+              <h2>Basic elements</h2>
+              <p>Colors for texts, links, borders and backgrounds.</p>
+              <div class="row">
+
+                <div class="col-md-4 col-sm-6 col-xs-6 paleta">
+                  <div class="color" style="background-color:#333"></div>
+                  <label>Text</label>
+                  <p>Black #333<br>bg-black<br>text-black</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 paleta">
+                  <div class="color" style="background-color:#6a1b99"></div>
+                  <label>Visited link</label>
+                  <p>Grape #6a1b99<br>bg-uva<br>text-uva</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 paleta">
+                  <div class="color" style="background-color:#525252"></div>
+                  <label>Secondary text (subtitles)</label>
+                  <p>Grey #525252<br>bg-muted<br>text-muted</p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 paleta">
+                  <div class="color bg-gray"></div>
+                  <label>Grey area</label>
+                  <p>Medium grey #f2f2f2<br>bg-gray
+                                   </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-6 paleta">
+                  <div class="color bg-celeste-argentina"></div>
+                  <label>Footer/header background</label>
+                  <p>Argentinian blue #37bbed<br>bg-celeste-argentina</p>
+                </div>
+
+              </div>
+
+              <h2>Secondary colors</h2>
+              <p>Must only be used for decorative elements (backgrounds or shapes without overlying text).</p>
+
+              <div class="row">
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-fucsia"></div>
+                    <div>
+                      <label>Fucsia</label>
+                      <p>#ec407a<br>bg-fucsia<br>text-fucsia</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-arandano"></div>
+                    <div>
+                      <label>Blueberry</label>
+                      <p>#c2185b<br>bg-arandano<br>text-arandano</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-uva"></div>
+                    <div>
+                      <label>Grape</label>
+                      <p>#6a1b99<br>bg-uva<br>text-uva</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-cielo"></div>
+                    <div>
+                      <label>Sky blue</label>
+                      <p>#039be5<br>bg-cielo<br>text-cielo</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-verdin"></div>
+                    <div>
+                      <label>Parrot</label>
+                      <p>#6ea100<br>bg-verdin<br>text-verdin</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-lima"></div>
+                    <div>
+                      <label>Lime</label>
+                      <p>#cddc39<br>bg-lima<br>text-lima</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-maiz"></div>
+                    <div>
+                      <label>Corn</label>
+                      <p>#ffce00<br>bg-maiz<br>text-maiz</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-tomate"></div>
+                    <div>
+                      <label>Tomato</label>
+                      <p>#ef5350<br>bg-tomate<br>text-tomate</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-naranja"></div>
+                    <div>
+                      <label>Dark orange</label>
+                      <p>#EF6C00<br>bg-naranja<br>text-naranja</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-verde-azulado"></div>
+                    <div>
+                      <label>Bluish green</label>
+                      <p>#008388<br>bg-verde-azulado<br>text-verde-azulado</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div>
+                <p><strong>Must only be used for decorative elements (backgrounds, icons or miscellany. No texts).</strong></p>
+              </div>
+
+              <div class="row">
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-escarapela"></div>
+                    <div>
+                      <label>Cockade</label>
+                      <p>#2cb9ee<br>bg-escarapela<br>text-escarapela</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-lavanda"></div>
+                    <div>
+                      <label>Lavander</label>
+                      <p>#9284be<br>bg-lavanda<br>text-lavanda</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-mandarina"></div>
+                    <div>
+                      <label>Mandarine</label>
+                      <p>#f79525<br>bg-mandarina<br>text-mandarina</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-palta"></div>
+                    <div>
+                      <label>Avocado</label>
+                      <p>#50b7b2<br>bg-palta<br>text-palta</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-cereza"></div>
+                    <div>
+                      <label>Cherry</label>
+                      <p>#ed3d8f<br>bg-cereza<br>text-cereza</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                  <div class="paleta paleta-circle">
+                    <div class="color bg-limon"></div>
+                    <div>
+                      <label>Lemon</label>
+                      <p>#d7df23<br>bg-limon<br>text-limon</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </fieldset>
+<hr>
+            <div class="col-sm-12">
+<h1>Tipography</h1>
+
+<p>Poncho's tipography is <a href="https://fonts.google.com/specimen/Encode+Sans?query=Encode">Encode</a>.</p>
+
+<hr>
+
+<fieldset>
+
+  <h2>Title and headings</h2>
+  <p>There must be only one h1 title per page but there can be several headings. The h1 to h5 order must always be followed and no heading should be skipped.</p>
+  <table class="table">
+    <thead>
+      <tr><th>Title</th>
+      <th>Code</th>
+    </tr></thead>
+    <tbody>
+  <tr>
+  <td><h1>h1. This is a title</h1></td>
+    <td>
+    <code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Título<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span></code>
+  </td>
+  </tr>
+  <tr>
+  <td><h2>h2. This is a heading</h2></td>
+    <td>
+    <code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">&gt;</span></span>Heading<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span></code>
+  </td>
+  </tr>
+  <tr>
+  <td><h3>h3. This is a heading</h3></td>
+    <td>
+    <code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">&gt;</span></span>Heading<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">&gt;</span></span></code>
+  </td>
+  </tr>
+  <tr>
+  <td><h4>h4. This is a heading</h4></td>
+    <td>
+    <code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h4</span><span class="token punctuation">&gt;</span></span>Heading<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h4</span><span class="token punctuation">&gt;</span></span></code>
+  </td>
+  </tr>
+  <tr>
+  <td><h5>h5. This is a heading</h5></td>
+    <td>
+    <code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h5</span><span class="token punctuation">&gt;</span></span>Heading<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h5</span><span class="token punctuation">&gt;</span></span></code>
+  </td>
+  </tr>
+    </tbody>
+  </table>
+
+
+<hr>
+
+  <h2>Text formating</h2>
+  <p>These are the text elements that can be found in a text body and some interactive elements.</p>
+
+  <table class="table">
+    <thead>
+      <tr><th width="250">Format</th>
+      <th>Code</th>
+      <th>Function</th>
+    </tr></thead>
+    <tbody>
+    <tr>
+    <td>Paragraph</td>
+    <td><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Paragraph<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></td>
+    <td>General text</td>
+  </tr>
+    <tr>
+    <td><strong>Bold</strong></td>
+    <td><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>strong</span><span class="token punctuation">&gt;</span></span>Bold<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>strong</span><span class="token punctuation">&gt;</span></span></code></td>
+    <td>Make words stand out. Never entire paragraphs.</td>
+  </tr>
+    <tr>
+    <td><i>Italics</i></td>
+    <td><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>i</span><span class="token punctuation">&gt;</span></span>Italics<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>i</span><span class="token punctuation">&gt;</span></span></code></td>
+    <td>To indicate that a word or group of words have a special meaning</td>
+  </tr>
+    <tr>
+      <td><small>Small</small></td>
+      <td><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>small</span><span class="token punctuation">&gt;</span></span>Small<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>small</span><span class="token punctuation">&gt;</span></span></code></td>
+      <td>For texts with complementary information (eg. form fields indications, legal information, etc).</td>
+    </tr>
+    <tr>
+      <td><p class="lead">Lead</p></td>
+      <td><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>lead<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Lead<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></td>
+      <td>For standing out text that are not headings.</td>
+    </tr>
+    <tr>
+      <td><blockquote>Quotes</blockquote></td>
+      <td><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>blockquote</span><span class="token punctuation">&gt;</span></span>Quotes<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>blockquote</span><span class="token punctuation">&gt;</span></span></code></td>
+      <td>Use inside a different paragraph.</td>
+    </tr>
+</tbody>
+</table>
+
+<hr>
+
+  <h2>Text colors</h2>
+  <p>Texts are usually black save for some interactive elements. They should not be used decoratively.</p>
+
+  <h3>Main colors</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil sed natus dignissimos unde in officiis incidunt, architecto vitae! Amet natus laboriosam eos, ducimus, voluptas officiis ipsa perferendis modi sunt qui.</p>
+<table class="table">
+    <thead>
+      <tr><th>Color</th>
+      <th>Code</th>
+      <th>Function</th>
+    </tr></thead>
+    <tbody>
+    <tr>
+      <td><strong>Black</strong></td>
+      <td><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>Black<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></td>
+      <td>Default text color</td>
+    </tr>       
+    <tr>
+      <td><strong class="text-gray">Dark grey</strong></td>
+      <td><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-gray<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Dark grey<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></td>
+      <td>For links</td>
+    </tr>       
+    <tr>
+      <td><strong class="text-muted">Light grey</strong></td>
+      <td><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-muted<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Light grey<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></td>
+      <td>For links</td>
+    </tr>
+    <tr>
+      <td><strong class="text-primary">Blue</strong></td>
+      <td><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-primary<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Blue<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></td>
+      <td>For links</td>
+    </tr>
+    <tr>
+      <td><strong class="text-success">Green</strong></td>
+      <td><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-success<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Green<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></td>
+      <td>For links</td>
+    </tr>
+    <tr>
+      <td><strong class="text-danger">Red</strong></td>
+      <td><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text-danger<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Red<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span></code></td>
+      <td>For links</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Horizontal divisions</h2>
+Divisions are used to break into element groups within a page.
+
+<pre class=" language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span><span class="token punctuation">&gt;</span></span></code></pre>
+
+</fieldset>
+
+            </div>
+          </div>
+        </section>
+      </div>
+      </div>
+    </article>
+  </section>
+  <section class="main-section" id="Components">
+    <header><h2 class="lateralmenu" class="h1">Components</h2></header>
+    <article>
+      <div class="row" style="margin-top: 5em;">
+        <section>
+          <div class="col-sm-3" id="menuLateral" data-seccion="1">
+<div class="page-sidebar">
+<ul class="nav nav-pills nav-stacked">
+	<li class="active"><a data-seccion="1" href="/poncho/componentes/botones/">Botones</a></li>
+	<li><a data-seccion="2" href="/poncho/componentes/paneles/">Paneles</a></li>
+	<li><a data-seccion="3" href="/poncho/componentes/destacados_con_iconos_y_numeros/">Destacados con íconos y números</a></li>
+	<li><a data-seccion="4" href="/poncho/componentes/alertas/">Alertas</a></li>
+	<li><a data-seccion="5" href="/poncho/componentes/desplegables/">Desplegables</a></li>
+	<li><a data-seccion="6" href="/poncho/componentes/grillas/">Grillas</a></li>	
+	<li><a data-seccion="7" href="/poncho/componentes/pestanas/">Pestañas</a></li>
+	<li><a data-seccion="8" href="/poncho/componentes/series_de_tiempo/">Series de tiempo</a></li>
+</ul>
+</div></div>
+        </section>
+    </article>
+  </section>
+  <section class="main-section" id="Templates">
+    <header>Templates</header>
+    <article>
+      <p>
+      </p>
+    </article>
+  </section>
+  <section class="main-section" id="Installing">
+    <header>Installing</header>
+    <article>
+      <p>
+      </p>
+    </article>
+  </section>
+</main>
