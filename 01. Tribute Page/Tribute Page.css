@@ -1,0 +1,29 @@
+  grid-template-columns: 49% 49%;    grid-gap: 2%;
+}
+
+.item4 {
+  grid-area: links;
+   width: 100%;
+  margin-top: 1em;
+}
+
+.item5 {
+  grid-area: footer;
+   width: 100%;
+  margin-top: 1em;
+}
+#title {
+  float: left;
+}
+#sub{
+      text-align: right;
+  font: 0.7em "Quicksand", Arial,sans-serif;
+    line-height: 46px;
+  float: right;
+}
+#img-div {
+  width: 80%;
+}
+#image {
+  max-width: 100%;
+  display: block;
