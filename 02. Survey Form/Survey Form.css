@@ -15,3 +15,155 @@ body {
   display: grid;
   grid-gap: 15px;
   grid-template-areas:
+    "header"
+    "form";
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  color: #fff;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Quicksand";
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  text-decoration: none;
+  color: #c5c8d4;
+}
+.h1color {
+  color: #9a8297;
+}
+.divider {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #ccc;
+}
+.clear {
+  clear: left;
+}
+.item1 {
+  grid-area: header;
+  width: 100%;
+}
+
+.item2 {
+  grid-area: form;
+  text-align: center;
+  width: 100%;
+}
+#logo {
+  float: left;
+}
+#sub {
+  text-align: right;
+  font: 0.7em "Quicksand", Arial, sans-serif;
+  line-height: 46px;
+  float: right;
+}
+#decription {
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+#form-outer {
+  background-color: #36383f;
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+#survey-form {
+  margin-top: 15px;
+}
+
+.input-field {
+  height: 20px;
+  width: 25%;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#submit {
+  background-color: black;
+  border: 3px solid #9a8297;
+  border-radius: 2px;
+  color: white;
+  font-size: 1rem;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio,
+.checkbox {
+  display: block;
+  font: 15px "Quicksand", Arial, sans-serif;
+  text-align: left;
+}
+#email {
+  width: 66.5%;
+}
+#dropdown {
+  width: 31.6%;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+#optionscontainer {
+  font-size: 1.5em;
+  width: 70%;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-areas: "preferences subscription";
+  align-items: start;
+  justify-items: start !important;
+  margin-top: 15px;
+}
+.item3 {
+  grid-area: subscription;
+  width: 100%;
+  font-size: 20px;
+}
+
+.item4 {
+  grid-area: preferences;
+  width: 100%;
+  font-size: 20px;
+}
+
+#comments {
+  margin-top: 25px;
+  width: 68.5%;
+}
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
